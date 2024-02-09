@@ -9,11 +9,6 @@ public class highScorePosition {
         this.playerScore = playerScore;
     }
 
-
-    public highScorePosition(int playerScore) {
-        this.playerScore = playerScore;
-    }
-
     public String getPlayerName() {
         return playerName;
     }
