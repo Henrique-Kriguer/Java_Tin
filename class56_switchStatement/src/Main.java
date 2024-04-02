@@ -35,5 +35,30 @@ public class Main {
             default -> {System.out.println("value was't 1,2,3,4,or 5");
                         System.out.println("Actually was a "+ switchValue);
         }}
+
+        String month = "APRIL";
+        System.out.println(month + " is in the " + getQuarter(month));
     }
+    public static  String getQuarter(String month){
+        switch (month) {
+            case"JANUARY":
+            case"FEBRUARY":
+            case"MARCH":
+                return "1st";
+            case"APRIL":
+            case"MAY":
+            case"JUNE":
+                return "2nd";
+            case"JULY":
+            case"AUGUST":
+            case"SEPTEMBER":
+                 return "3rd";
+            case "OCTUBER":
+            case"NOVEMBER":
+            case"DEZEMBER":
+                return"4th";
+        }
+        return "bad";
+    }
+
 }
