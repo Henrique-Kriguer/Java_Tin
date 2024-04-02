@@ -36,29 +36,20 @@ public class Main {
                         System.out.println("Actually was a "+ switchValue);
         }}
 
-        String month = "APRIL";
-        System.out.println(month + " is in the " + getQuarter(month));
+        String month = "JANUARY";
+        System.out.println(month + " is in the " + getQuarter(month) + " quarter");
     }
     public static  String getQuarter(String month){
-        switch (month) {
-            case"JANUARY":
-            case"FEBRUARY":
-            case"MARCH":
-                return "1st";
-            case"APRIL":
-            case"MAY":
-            case"JUNE":
-                return "2nd";
-            case"JULY":
-            case"AUGUST":
-            case"SEPTEMBER":
-                 return "3rd";
-            case "OCTUBER":
-            case"NOVEMBER":
-            case"DEZEMBER":
-                return"4th";
-        }
-        return "bad";
+        return switch (month) {
+            case "JANUARY", "FEBRUARY", "MARCH" -> {yield "1st"; }
+            case "APRIL", "MAY", "JUNE" -> {yield "2nd"; }
+            case "JULY", "AUGUST", "SEPTEMBER" -> {yield "3rd"; }
+            case "OCTOBER", "NOVEMBER", "DEZEMBER" -> { yield "4th"; }
+            default -> {
+                String badresponse = month + " is bad";
+                yield badresponse;
+            }
+        };
     }
 
 }
