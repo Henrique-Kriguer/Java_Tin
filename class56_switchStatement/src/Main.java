@@ -27,7 +27,7 @@ public class Main {
 //                break;
 //        }
 
-        int switchValue = 7;
+        int switchValue = 3;
         switch(switchValue){
             case 1 -> System.out.println(" Value was 1");
             case 2 -> System.out.println("Value was 2");
