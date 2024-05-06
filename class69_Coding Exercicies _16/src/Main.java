@@ -1,18 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println(isPalindrome(123421));
     }
     public static boolean isPalindrome(int number){
-        int lastDigit = 0;
-        int remainNumber = 0;
-
-        while(number>9){
-           remainNumber = number/10;
-           lastDigit = number %10;
+        int numberModific = number;
+        int reverse=0;
+        int lastDigit=0;
+        while(numberModific !=0){
+            lastDigit=numberModific%10;
+            reverse*=10;
+            reverse +=lastDigit;
+            numberModific/=10;
         }
-        return true;
+        if(reverse==number){
+            return true;
+        }
+        return false;
     }
 }
+
 
 
 
