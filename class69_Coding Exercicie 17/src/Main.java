@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(sumFirstAndLastDigit(1235));
+        System.out.println(sumFirstAndLastDigit(99));
     }
     public static int sumFirstAndLastDigit (int number){
+        if (number<10){
+            return number*2;
+        }
         int lastDigit = number %10;
         int firstDigit = 0;
         int numberModific = number;
@@ -11,7 +14,7 @@ public class Main {
         }
         while (numberModific > 9){
             numberModific/=10;
-            if(numberModific<9){
+            if(numberModific<=9){
                 firstDigit = numberModific;
                 continue;
             }

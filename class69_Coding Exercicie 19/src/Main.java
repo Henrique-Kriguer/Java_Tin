@@ -4,7 +4,7 @@ public class Main {
         System.out.println(hasSharedDigit(23,34));
     }
     public static boolean hasSharedDigit(int number1, int number2) {
-        if (number1 > 99 || number1 < 9 || number2 > 99 || number2 < 9) {
+        if (number1 > 99 || number1 < 10 || number2 > 99 || number2 < 10) {
             return false;
         }
         int Lastdigit1 = number1%10;

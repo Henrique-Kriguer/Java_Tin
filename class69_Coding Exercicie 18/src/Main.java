@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(getEvenDigitSum(-614238));
+        System.out.println(getEvenDigitSum(212));
     }
 
     public static int getEvenDigitSum(int number){
@@ -13,18 +13,14 @@ public class Main {
         int evenSum = 0;
         while(numberModific>0){
             lastDigit = numberModific%10;
-            if(isEvenNumber(lastDigit)){
+            if(lastDigit % 2==0){
                 evenSum+=lastDigit;
             }
             numberModific/=10;
         }
         return evenSum;
     }
-    public static boolean isEvenNumber(int digit){
-        if( digit % 2 == 0){
-            return true;
-        } return false;
-    }
+
 
     /*
     Even Digit Sum
