@@ -1,67 +1,62 @@
 public class Main {
     public static void main(String[] args) {
 
-        numberToWords(123);
-        System.out.println(getDigitCount(123));
+        numberToWords((20754591));
+        System.out.println(getDigitCount(20754591));
+
+
     }
 
     public static void numberToWords(int number){
-        int lastDigit = 0;
-        int numbermodif=number;
-
-        if(number<0){
+       if(number<0){
             System.out.println("Invalid Value");
         }
-            for (int i =1; numbermodif> 0;i++ ){
-                lastDigit = numbermodif%10;
-                numbermodif/=10;
-                System.out.println(printLastDigit(lastDigit));
-            }
-
-    }
-
-    public static int getDigitCount(int number){
-        int digit = 0;
-
-        int numberModific = number;
-        for (int i = 1;numberModific !=0; i++){
-
-            numberModific = number/10;
-            digit +=i;
+        int reverseNumber = getReverse(number);
+        int digitCount = getDigitCount(number);
+        for (int i = 0; i < getDigitCount(number); i++) {
+            System.out.println(
+                    switch (reverseNumber % 10) {
+                        case 1 -> "One";
+                        case 2 -> "Two";
+                        case 3 -> "Three";
+                        case 4 -> "Four";
+                        case 5 -> "Five";
+                        case 6 -> "Six";
+                        case 7 -> "Seven";
+                        case 8 -> "Eight";
+                        case 9 -> "Nine";
+                        default -> "Zero";
+                    });
+            reverseNumber /= 10;
         }
 
+        }
+
+
+
+    public static int getDigitCount(int number){
+        if (number < 0 ){
+            return -1;
+        }
+        int digit = 1;
+        for (int i = number; i>=10; i/=10){
+            digit ++;
+        }
         return digit;
     }
     public static int getReverse( int number){
         int reverse = 0;
-
+        while(number !=0){
+            int lastDigit = number%10;
+            reverse = reverse*10 + lastDigit;
+            number /=10;
+        }
 
         return reverse;
+
+
     }
-    public static String printLastDigit(int lastDigit){
-        if(lastDigit == 0){
-            return "zero";
-        } else if (lastDigit == 1) {
-            return "one";
-        } else if (lastDigit == 2) {
-            return "two";
-        } else if (lastDigit == 3) {
-            return "three";
-        } else if (lastDigit == 4) {
-            return "four";
-        } else if (lastDigit == 5) {
-            return "five";
-        } else if (lastDigit == 6) {
-            return "six";
-        } else if (lastDigit == 7) {
-            return "seven";
-        } else if (lastDigit == 8) {
-            return "eight";
-        } else if ( lastDigit == 9) {
-            return "nine";
-        }
-    return "x";
-    }
+
 }
 
 
