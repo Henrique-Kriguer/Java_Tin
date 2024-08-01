@@ -2,7 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car = new Car();
+      Car car = new Car();
+      car.describeCar();
+       /*
         car.setMake("Porsche");
         car.setModel("GT");
         car.setColor("black");
@@ -21,5 +23,7 @@ public class Main {
         car2.describeCar();
         System.out.println("make: "+car2.getMake());
         System.out.println("model: "+car2.getModel());
+
+       */
     }
 }
