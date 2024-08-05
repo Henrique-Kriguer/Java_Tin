@@ -6,14 +6,19 @@ public class BankAccount {
     private String email;
     private int phoneNumber;
 
-    /*public BankAccount(int accountNumber, float accountBalance, String customerName, String email, int phoneNumber) {
+    public BankAccount(){
+        this(998,2.50f,"Default name","Default address", 123);
+        System.out.println("empty constructor is called.");
+    }
+    public BankAccount(int accountNumber, float accountBalance, String customerName, String email, int phoneNumber) {
         this.accountNumber = accountNumber;
         this.accountBalance = accountBalance;
         this.customerName = customerName;
-        this.email = email;
-        this.phoneNumber = phoneNumber;
+        email = email;
+        phoneNumber = phoneNumber;
+        System.out.println("Constructor with 5 parameters are called");
     }
-*/
+
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -64,8 +69,9 @@ public class BankAccount {
             System.out.println("Withdraw of $"+funds+ " isn´t made since there isn´t sufficient funds in balance.Actual balance is $"+ accountBalance);
 
 
+        } else {
+            accountBalance -= funds;
+            System.out.println("Withdraw of $" + funds + " made. New balance is $" + accountBalance);
         }
-        accountBalance -= funds;
-        System.out.println("Withdraw of $"+funds+ " made. New balance is $"+ accountBalance);
     }
 }
