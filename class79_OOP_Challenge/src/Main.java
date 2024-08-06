@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         BankAccount acc = new BankAccount();
+        System.out.println("Balance = $"+acc.getAccountBalance());
 
      //   BankAccount acc = new BankAccount(999,1000,"Henrique","mail",123456);
         //System.out.println("Balance: "+acc.getAccountBalance());
@@ -13,7 +14,7 @@ public class Main {
         //System.out.println("Balance: "+acc.getAccountBalance());
         acc.withdrawing((float)40.8f);
        // System.out.println("Balance: "+acc.getAccountBalance());
-        acc.withdrawing(100);
+       // acc.withdrawing(100);
        // System.out.println("Balance: "+acc.getAccountBalance());
 
     }
