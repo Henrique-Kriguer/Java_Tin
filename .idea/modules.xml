@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Class44_if_then/Class44_if_then.iml" filepath="$PROJECT_DIR$/Class44_if_then/Class44_if_then.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class54_PrintEqual/Class54_PrintEqual.iml" filepath="$PROJECT_DIR$/Class54_PrintEqual/Class54_PrintEqual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class69_Coding Exercise24/Class69_Coding Exercise24.iml" filepath="$PROJECT_DIR$/Class69_Coding Exercise24/Class69_Coding Exercise24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class69_CodingExcercicie_23/Class69_CodingExcercicie_23.iml" filepath="$PROJECT_DIR$/Class69_CodingExcercicie_23/Class69_CodingExcercicie_23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstMethodsChallenge/FirstMethodsChallenge.iml" filepath="$PROJECT_DIR$/FirstMethodsChallenge/FirstMethodsChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Tin.iml" filepath="$PROJECT_DIR$/.idea/Java_Tin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class48/class48.iml" filepath="$PROJECT_DIR$/class48/class48.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class50/class50.iml" filepath="$PROJECT_DIR$/class50/class50.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class50_forStatement/class50_forStatement.iml" filepath="$PROJECT_DIR$/class50_forStatement/class50_forStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class51/class51.iml" filepath="$PROJECT_DIR$/class51/class51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class51 overloading/class51 overloading.iml" filepath="$PROJECT_DIR$/class51 overloading/class51 overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class52_Overloaded_challenge/class52_Overloaded_challenge.iml" filepath="$PROJECT_DIR$/class52_Overloaded_challenge/class52_Overloaded_challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class53_SecondsMinutesChallenge/class53_SecondsMinutesChallenge.iml" filepath="$PROJECT_DIR$/class53_SecondsMinutesChallenge/class53_SecondsMinutesChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class54MinutesToYearsDays/class54MinutesToYearsDays.iml" filepath="$PROJECT_DIR$/class54MinutesToYearsDays/class54MinutesToYearsDays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class54_PlayingCat/class54_PlayingCat.iml" filepath="$PROJECT_DIR$/class54_PlayingCat/class54_PlayingCat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class56_switchStatement/class56_switchStatement.iml" filepath="$PROJECT_DIR$/class56_switchStatement/class56_switchStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class58_SwitchChallenge/class58_SwitchChallenge.iml" filepath="$PROJECT_DIR$/class58_SwitchChallenge/class58_SwitchChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class59_SwitchExpressionChallenge/class59_SwitchExpressionChallenge.iml" filepath="$PROJECT_DIR$/class59_SwitchExpressionChallenge/class59_SwitchExpressionChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class59_coodingExercicie13/class59_coodingExercicie13.iml" filepath="$PROJECT_DIR$/class59_coodingExercicie13/class59_coodingExercicie13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class59_coodingExercise14/class59_coodingExercise14.iml" filepath="$PROJECT_DIR$/class59_coodingExercise14/class59_coodingExercise14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class60_ForStatementChallenge_interestRateCalculus/class60_ForStatementChallenge_interestRateCalculus.iml" filepath="$PROJECT_DIR$/class60_ForStatementChallenge_interestRateCalculus/class60_ForStatementChallenge_interestRateCalculus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class61_ForStatementChallenge_isPrimeNumber/class61_ForStatementChallenge_isPrimeNumber.iml" filepath="$PROJECT_DIR$/class61_ForStatementChallenge_isPrimeNumber/class61_ForStatementChallenge_isPrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class62_sum3and5challenge/class62_sum3and5challenge.iml" filepath="$PROJECT_DIR$/class62_sum3and5challenge/class62_sum3and5challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class63_ForLoopRecap/class63_ForLoopRecap.iml" filepath="$PROJECT_DIR$/class63_ForLoopRecap/class63_ForLoopRecap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class64_While_and_doWhileStatements/class64_While_and_doWhileStatements.iml" filepath="$PROJECT_DIR$/class64_While_and_doWhileStatements/class64_While_and_doWhileStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class65_isEvenNumber/class65_isEvenNumber.iml" filepath="$PROJECT_DIR$/class65_isEvenNumber/class65_isEvenNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class66_Diit SumChallenge/class66_Diit SumChallenge.iml" filepath="$PROJECT_DIR$/class66_Diit SumChallenge/class66_Diit SumChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class67_theWhileRecap/class67_theWhileRecap.iml" filepath="$PROJECT_DIR$/class67_theWhileRecap/class67_theWhileRecap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Execicies_21/class69_Coding Execicies_21.iml" filepath="$PROJECT_DIR$/class69_Coding Execicies_21/class69_Coding Execicies_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Execicies_22/class69_Coding Execicies_22.iml" filepath="$PROJECT_DIR$/class69_Coding Execicies_22/class69_Coding Execicies_22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Exercicie 17/class69_Coding Exercicie 17.iml" filepath="$PROJECT_DIR$/class69_Coding Exercicie 17/class69_Coding Exercicie 17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Exercicie 18/class69_Coding Exercicie 18.iml" filepath="$PROJECT_DIR$/class69_Coding Exercicie 18/class69_Coding Exercicie 18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Exercicie 19/class69_Coding Exercicie 19.iml" filepath="$PROJECT_DIR$/class69_Coding Exercicie 19/class69_Coding Exercicie 19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Exercicie 20/class69_Coding Exercicie 20.iml" filepath="$PROJECT_DIR$/class69_Coding Exercicie 20/class69_Coding Exercicie 20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_Coding Exercicies _16/class69_Coding Exercicies _16.iml" filepath="$PROJECT_DIR$/class69_Coding Exercicies _16/class69_Coding Exercicies _16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_codding_exercicie26/class69_codding_exercicie26.iml" filepath="$PROJECT_DIR$/class69_codding_exercicie26/class69_codding_exercicie26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_coding_exercicie25/class69_coding_exercicie25.iml" filepath="$PROJECT_DIR$/class69_coding_exercicie25/class69_coding_exercicie25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class69_coding_exercicie_27/class69_coding_exercicie_27.iml" filepath="$PROJECT_DIR$/class69_coding_exercicie_27/class69_coding_exercicie_27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class70_ getInput_from_console/class70_ getInput_from_console.iml" filepath="$PROJECT_DIR$/class70_ getInput_from_console/class70_ getInput_from_console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class74_MinAndMaxClallenge/class74_MinAndMaxClallenge.iml" filepath="$PROJECT_DIR$/class74_MinAndMaxClallenge/class74_MinAndMaxClallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class74_codingExerc28_inputCalculator/class74_codingExerc28_inputCalculator.iml" filepath="$PROJECT_DIR$/class74_codingExerc28_inputCalculator/class74_codingExerc28_inputCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class74_codingExercicie29_paintJob/class74_codingExercicie29_paintJob.iml" filepath="$PROJECT_DIR$/class74_codingExercicie29_paintJob/class74_codingExercicie29_paintJob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class76_Intro_OOP/class76_Intro_OOP.iml" filepath="$PROJECT_DIR$/class76_Intro_OOP/class76_Intro_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class79_CodingExercicie31_Person/class79_CodingExercicie31_Person.iml" filepath="$PROJECT_DIR$/class79_CodingExercicie31_Person/class79_CodingExercicie31_Person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class79_Codingexercicie30/class79_Codingexercicie30.iml" filepath="$PROJECT_DIR$/class79_Codingexercicie30/class79_Codingexercicie30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class79_OOP_Challenge/class79_OOP_Challenge.iml" filepath="$PROJECT_DIR$/class79_OOP_Challenge/class79_OOP_Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class82_Constructor_challenge/class82_Constructor_challenge.iml" filepath="$PROJECT_DIR$/class82_Constructor_challenge/class82_Constructor_challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class82_reference_instance_object_class/class82_reference_instance_object_class.iml" filepath="$PROJECT_DIR$/class82_reference_instance_object_class/class82_reference_instance_object_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class85_static_Or_InstanceClass/class85_static_Or_InstanceClass.iml" filepath="$PROJECT_DIR$/class85_static_Or_InstanceClass/class85_static_Or_InstanceClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class86_ThePOJO/class86_ThePOJO.iml" filepath="$PROJECT_DIR$/class86_ThePOJO/class86_ThePOJO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class87_codingExercise_32_wall/class87_codingExercise_32_wall.iml" filepath="$PROJECT_DIR$/class87_codingExercise_32_wall/class87_codingExercise_32_wall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class87_codingexercise_33_Point/class87_codingexercise_33_Point.iml" filepath="$PROJECT_DIR$/class87_codingexercise_33_Point/class87_codingexercise_33_Point.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class87_codingexercise_34_CarpetCostCalculator/class87_codingexercise_34_CarpetCostCalculator.iml" filepath="$PROJECT_DIR$/class87_codingexercise_34_CarpetCostCalculator/class87_codingexercise_34_CarpetCostCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_70_parsingValues/class_70_parsingValues.iml" filepath="$PROJECT_DIR$/class_70_parsingValues/class_70_parsingValues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_73_input_console_challenge/class_73_input_console_challenge.iml" filepath="$PROJECT_DIR$/class_73_input_console_challenge/class_73_input_console_challenge.iml" />
+    </modules>
+  </component>
+</project>
