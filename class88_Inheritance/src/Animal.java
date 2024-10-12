@@ -1,23 +1,24 @@
 public class Animal {
-    private String type;
+    protected String type;
     private String size;
-    private String weight;
+    private Double weight;
 
-    public Animal(){
+    public Animal(){// este construtor é necessário para que
+        // as outras classes que forem "herdar" possam ser configuradas com a palavra "EXTENDS"
 
     }
 
-    public Animal(String type, String size, String weight) {
+    public Animal(String type, String size, Double weight) {
         this.type = type;
         this.size = size;
         this.weight = weight;
     }
 
     public void move(String speed){
-        System.out.println("Animal type " + type + "moves " + speed + ".");
+        System.out.println("Animal type " + type + " moves " + speed + ".");
     }
     public void makeNoise(){
-        System.out.println("Animal " + type + "make noise.");
+        System.out.println("Animal " + type + " make noise.");
     }
 
     public String getType() {
@@ -36,11 +37,11 @@ public class Animal {
         this.size = size;
     }
 
-    public String getWeight() {
+    public Double getWeight() {
         return weight;
     }
 
-    public void setWeight(String weight) {
+    public void setWeight(Double weight) {
         this.weight = weight;
     }
 
