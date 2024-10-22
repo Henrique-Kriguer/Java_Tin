@@ -16,6 +16,9 @@ public class Main {
 
         Dog wolf = new Dog ("Wolf", 40.0);
         doAnimalStuff(wolf, "fast");
+
+        Fish goldie = new Fish("small", 0.25,2, 1);
+        doAnimalStuff(goldie,"fast");
     }
     public static void doAnimalStuff( Animal animal, String speed){
         animal.makeNoise();
