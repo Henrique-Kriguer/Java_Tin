@@ -11,6 +11,7 @@ public class Main {
         System.out.println(string.startsWith("Hello"));
         System.out.println(string.endsWith("World"));
         System.out.println(string.contains("World"));
+        System.out.println(string.contentEquals("Hello World"));
 
          }
 
