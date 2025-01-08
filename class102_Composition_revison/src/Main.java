@@ -14,8 +14,10 @@ public class Main {
         PersonalComputer myPc = new PersonalComputer("DF","I myself",
                 theMonitor,theMotherboard,theCase );
 
-        myPc.getMonitor().drawPixelAt(1500, 1200, "red");
-        myPc.getMotherboard().loadProgram("Windows 10");
-        myPc.getComputerCase().pressPowerButton();
+        myPc.powerUp();
+        
+//        myPc.getMonitor().drawPixelAt(1500, 1200, "red");
+//        myPc.getMotherboard().loadProgram("Windows 10");
+//        myPc.getComputerCase().pressPowerButton();
     }
 }

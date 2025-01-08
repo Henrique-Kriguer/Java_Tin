@@ -13,15 +13,37 @@ public class PersonalComputer extends Product{
         this.computerCase = computerCase;
     }
 
-    public Monitor getMonitor() {
-        return monitor;
+   private void drawLogo(){
+        monitor.drawPixelAt(1200,35,"green");
+        }
+
+   private void loadProgram(String programName){
+        motherboard.loadProgram(programName);
     }
 
-    public Motherboard getMotherboard() {
-        return motherboard;
+    private void pressPowerButton(){
+        computerCase.pressPowerButton();
     }
 
-    public ComputerCase getComputerCase() {
-        return computerCase;
+   public void powerUp(){
+        pressPowerButton();
+        drawLogo();
+        loadProgram("Windows 10");
     }
+
+
+
+
+//
+//    public Monitor getMonitor() {
+//        return monitor;
+//    }
+//
+//    public Motherboard getMotherboard() {
+//        return motherboard;
+//    }
+//
+//    public ComputerCase getComputerCase() {
+//        return computerCase;
+//    }
 }

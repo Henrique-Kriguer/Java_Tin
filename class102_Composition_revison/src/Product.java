@@ -70,7 +70,9 @@ class ComputerCase extends Product{
         super(model, manufacturer);
         this.powerSupply = powerSupply;
     }
+
     public void pressPowerButton(){
+        System.out.println("_______________________________");
         System.out.println("Power button pressed");
     }
 
