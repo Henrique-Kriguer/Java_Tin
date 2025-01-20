@@ -35,6 +35,9 @@ class Adventure extends Movie {
                 "Scarly Music",
                 "Somenting bad happens");
     }
+    public void watchAdventure() {
+        System.out.println("Watching Adventure - " );
+    }
 }
 
     class Comedy extends Movie{
@@ -50,6 +53,9 @@ class Adventure extends Movie {
                     "Comedy Music",
                     "Happy Ending");
         }
+        public void watchComedy() {
+            System.out.println("Watching Comedy - " );
+        }
     }
     class SciFi extends Movie {
     public SciFi(String title) {
@@ -64,5 +70,8 @@ class Adventure extends Movie {
                         "Scarly Music",
                         "Some star will explode");
             }
+        public void watchScyFi() {
+            System.out.println("Watching Science fiction - " );
         }
+    }
 
