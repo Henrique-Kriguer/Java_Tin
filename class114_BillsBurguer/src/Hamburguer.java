@@ -41,7 +41,7 @@ public class Hamburguer {
     }
 
     public void setPrice(float price) {
-        this.price = price;
+        this.price = 18.0f;
     }
 
     public ExtraToppings getExtraToppings1() {

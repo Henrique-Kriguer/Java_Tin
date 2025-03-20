@@ -30,7 +30,16 @@ public class Drink {
     }
 
     public void setPrice(float price) {
-        this.price = price;
+        // configuration the price according size;
+        if (this.size.equalsIgnoreCase("small")) {
+            this.price = 1.50f;
+        } else if (this.size.equalsIgnoreCase("medium")) {
+            this.price = 2.50f;
+        } else if (this.size.equalsIgnoreCase("large")) {
+            this.price = 3.50f;
+        } else {
+            this.price = price; // Default price if size is not recognized
+        }
     }
 }
 

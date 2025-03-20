@@ -91,6 +91,6 @@ public class DeluxeBurguer {
     }
 
     public void setPrice(Float price) {
-        this.price = price;
+        this.price = 35.80f;
     }
 }

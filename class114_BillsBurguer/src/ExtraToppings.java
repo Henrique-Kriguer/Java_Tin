@@ -20,6 +20,17 @@ public class ExtraToppings {
     }
 
     public void setPrice(float price) {
-        this.price = price;
-    }
+
+            // configuration the price according type;
+            if (this.type.equalsIgnoreCase("small")) {
+                this.price = 1.50f;
+            } else if (this.type.equalsIgnoreCase("medium")) {
+                this.price = 2.50f;
+            } else if (this.type.equalsIgnoreCase("large")) {
+                this.price = 3.50f;
+            } else {
+                this.price = price; // Default price if size is not recognized
+            }
+        }
+
 }
