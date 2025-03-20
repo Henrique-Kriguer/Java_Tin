@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b03857-18b0-4883-917a-d4e25ba128f2" name="Changes" comment="Class103 - Composition." />
+    <list default="true" id="14b03857-18b0-4883-917a-d4e25ba128f2" name="Changes" comment="Class103 - Composition.">
+      <change beforePath="$PROJECT_DIR$/../class103_CompositionChallenge/src/SmartKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class103_CompositionChallenge/src/SmartKitchen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +88,7 @@
       <workItem from="1736277934354" duration="220000" />
       <workItem from="1736278634596" duration="53000" />
       <workItem from="1737829651800" duration="22000" />
+      <workItem from="1738249172348" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Class101 - PersonalComputerClass added.">
       <option name="closed" value="true" />

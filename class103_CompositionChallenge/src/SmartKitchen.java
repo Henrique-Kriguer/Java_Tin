@@ -23,6 +23,7 @@ public class SmartKitchen {
     public void pourMilk() {
         refrigerator.orderFood();
     }
+
     public void setKitchenState(boolean refrigeratorState, boolean coffeeMakerState, boolean dishWasherState) {
         refrigerator.hasWorkToDo();
         coffeeMaker.hasWorkToDo();
