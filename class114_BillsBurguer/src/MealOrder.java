@@ -48,9 +48,9 @@ public class MealOrder {
 
     public String printOrder() {
         String order = "Order: ";
-        //order += hamburguer.getType() + " ";
-        //order += drink.getType() + " ";
-        //order += sideItem.getType() + " ";
+        order += hamburguer.getType() + " ";
+        order += drink.getType() + " ";
+        order += sideItem.getType() + " ";
         order += "Total: " + (hamburguer.getPrice() + drink.getPrice() + sideItem.getPrice());
         return order;
     }
