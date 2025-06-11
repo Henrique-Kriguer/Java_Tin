@@ -31,11 +31,24 @@ public class Main {
         //Item.printItem("Total Price", burger.getAdjustedPrice());
 
  */
-        MealOrder mealOrder = new MealOrder();
-        mealOrder.addToppings("Salad", "Bacon", "Cheese");
-        mealOrder.setDrinkSize("LARGE");
-        
-        mealOrder.printItemizedList();
+//        MealOrder mealOrder = new MealOrder();
+//        mealOrder.addToppings("Salad", "Bacon", "Cheese");
+//        mealOrder.setSideSize("LARGE");
+//        mealOrder.setDrinkSize("LARGE");
+//
+//        mealOrder.printItemizedList();
 
+        MealOrder deluxeMeal = new MealOrder("Deluxe", "Coke", "French Fries");
+        deluxeMeal.addToppings("Salad", "Bacon", "Cheese", "Onion Rings", "Extra Pickles");
+        deluxeMeal.setDrinkSize("LARGE");
+        deluxeMeal.setSideSize("LARGE");
+        deluxeMeal.printItemizedList();
+
+        System.out.println("\nRegular Meal Order:");
+        MealOrder regularMeal = new MealOrder();
+        regularMeal.addToppings("Salad", "Bacon", "Cheese");
+        regularMeal.setDrinkSize("SMALL");
+        regularMeal.setSideSize("SMALL");
+        regularMeal.printItemizedList();
     }
 }

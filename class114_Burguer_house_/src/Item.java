@@ -23,8 +23,8 @@ public class Item {
 
     public double getAdjustedPrice(){
         return switch (size){
-            case "SMALL" -> getBasePrice() - 100.5;
-            case "LARGE" -> getBasePrice() + 100.0;
+            case "SMALL" -> getBasePrice() - 5.5;
+            case "LARGE" -> getBasePrice() + 10.0;
             default -> getBasePrice();
         };
     }
