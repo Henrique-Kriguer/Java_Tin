@@ -22,12 +22,20 @@ public class Main {
         tomatoes.setSize("LARGE");
         tomatoes.printItem();
     }*/
-
+/*
         Burger burger = new Burger("regular", 50.0);
         //burger.setSize("LARGE");
         burger.addToppings("Salad", "Bacon", "Cheese");
         burger.printItem();
 
         //Item.printItem("Total Price", burger.getAdjustedPrice());
+
+ */
+        MealOrder mealOrder = new MealOrder();
+        mealOrder.addToppings("Salad", "Bacon", "Cheese");
+        mealOrder.setDrinkSize("LARGE");
+        
+        mealOrder.printItemizedList();
+
     }
 }
